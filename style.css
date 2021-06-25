@@ -1,0 +1,129 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#menu {
+    list-style: none;
+    text-align: center;
+    position: fixed;
+    background-color: #FFFFFF;
+    margin: 0px;
+    right: 0;
+    left: 0;
+    top: 0;
+    box-shadow: 0px 0px 10px grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+li {
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style: none;
+}
+
+li a{
+    color: black;
+    text-decoration: none;
+}
+
+#menu li:hover{
+    font-size: 22px;
+    border-bottom: 5px solid rgba(247,220,180,1);
+}
+
+#welcome {
+    background: #DD7373;
+}
+
+#savya_image {
+    width: 400px;
+    height: 500px;
+    margin-left: 420px;
+    margin-top: 50px;
+}
+
+#name {
+    font-size: 80px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#bio {
+    background: #D1D1D1;
+}
+
+p {
+    font-size: 20px;
+    word-spacing: 1px;
+    line-height: 27px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#writings {
+    background-color: #EAD94C;
+    min-height: 300px;
+
+}
+
+#writings_image {
+    width: 300px;
+    height: 300px;
+}
+
+.row {
+    display: flex;
+
+}
+
+.writing-content {
+    min-height: 250px;
+    text-align: center;
+}
+
+.w2 {
+    flex: 2;
+}
+
+.w1 {
+    flex: 1;
+}
+
+img {
+    width: 80%;
+}
+
+.row h1 {
+    font-size: 20px;
+    color: darkblue;
+}
+
+#coding_projects {
+    background: #0FA3B1;
+}
+
+#coding_projects a{
+    margin-left: 10px;
+    margin-bottom: 10px;   
+    font-size: 18px;
+}
+
+#footer {
+    text-align: center;
+    background: #bbb;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
